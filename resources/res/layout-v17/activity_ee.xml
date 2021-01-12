@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:background="@color/colorPrimary" android:padding="10dp" android:layout_width="match_parent" android:layout_height="150dp" android:layout_marginTop="1dp">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#fff" android:id="@+id/title" android:layout_width="260dp" android:layout_height="wrap_content" android:text="الأمتحان النصفي الأول لمادة EE200‎" android:layout_alignParentTop="true" android:layout_alignParentEnd="true"/>
+                <TextView android:textColor="#fff" android:id="@+id/title0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="المادة: EE200" android:layout_below="@+id/title" android:layout_alignParentEnd="true"/>
+                <TextView android:textColor="#fff" android:id="@+id/sizeut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="الحجم :   1  ميقابايت" android:layout_below="@+id/title0" android:layout_alignParentEnd="true"/>
+                <ImageView android:id="@+id/CE1ST" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="5dp" android:src="@drawable/download" android:scaleType="centerCrop" android:layout_below="@+id/title" android:layout_marginStart="31dp" android:layout_alignParentStart="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

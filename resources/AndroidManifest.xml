@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="9" android:versionName="1.1" package="com.utebooks.app_utebooks">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="26"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <meta-data android:name="android.support.VERSION" android:value="25.3.1"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:name="com.utebooks.app_utebooks.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.utebooks.app_utebooks.permission.C2D_MESSAGE"/>
+    <application android:theme="@style/AppTheme" android:label="utebooks" android:icon="@mipmap/ic_launcher" android:name="com.utebooks.app_utebooks.font_class.SegoeUI" android:allowBackup="true" android:supportsRtl="true" android:roundIcon="@mipmap/ic_launcher_round">android:debuggable=false
+        <activity android:name="com.utebooks.app_utebooks.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.utebooks.app_utebooks.SplashActivity"/>
+        <activity android:name="com.utebooks.app_utebooks.TimeTable"/>
+        <activity android:name="com.utebooks.app_utebooks.Departments"/>
+        <activity android:name="com.utebooks.app_utebooks.MainActivity"/>
+        <activity android:name="com.utebooks.app_utebooks.SignupActivity"/>
+        <activity android:name="com.utebooks.app_utebooks.LoginActivity"/>
+        <activity android:name="com.utebooks.app_utebooks.ResetPasswordActivity"/>
+        <activity android:name="com.utebooks.app_utebooks.UserProfile"/>
+        <activity android:name="com.utebooks.app_utebooks.SubjectList"/>
+        <activity android:name="com.utebooks.app_utebooks.ExpandableListView"/>
+        <activity android:name="com.utebooks.app_utebooks.About"/>
+        <activity android:name="com.utebooks.app_utebooks.Menu"/>
+        <activity android:name="com.utebooks.app_utebooks.TimeTabe_Semester"/>
+        <activity android:name="com.utebooks.app_utebooks.EE_timetable"/>
+        <activity android:name="com.utebooks.app_utebooks.ChatMessage"/>
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="com.utebooks.app_utebooks"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" android:exported="false"/>
+        <service android:name="com.google.firebase.iid.FirebaseInstanceIdService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.utebooks.app_utebooks.firebaseinitprovider" android:initOrder="100"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+</manifest>

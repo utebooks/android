@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" xmlns:ns1="http://schemas.android.com/apk/res-auto" ns1:state_collapsed="true" xmlns:ns2="http://schemas.android.com/apk/res-auto" ns2:state_collapsible="true">
+        <objectAnimator android:valueTo="@dimen/design_appbar_elevation" android:valueType="floatType" android:propertyName="elevation"/>
+    </item>
+    <item android:state_enabled="true" xmlns:ns3="http://schemas.android.com/apk/res-auto" ns3:state_collapsed="false" xmlns:ns4="http://schemas.android.com/apk/res-auto" ns4:state_collapsible="true">
+        <objectAnimator android:valueTo="0dp" android:valueType="floatType" android:propertyName="elevation"/>
+    </item>
+    <item android:state_enabled="true" xmlns:ns5="http://schemas.android.com/apk/res-auto" ns5:state_collapsible="false">
+        <objectAnimator android:valueTo="@dimen/design_appbar_elevation" android:valueType="floatType" android:propertyName="elevation"/>
+    </item>
+    <item>
+        <objectAnimator android:valueTo="0" android:valueType="floatType" android:propertyName="elevation"/>
+    </item>
+</selector>

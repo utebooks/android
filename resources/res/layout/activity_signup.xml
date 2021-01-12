@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/colorPrimary" android:padding="@dimen/activity_horizontal_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="150dp" android:src="@drawable/ebooks_logo"/>
+        <TextView android:textSize="24dp" android:textStyle="bold" android:textColor="#ffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="تسجيل حساب جديد"/>
+        <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:textColor="@android:color/white" android:id="@+id/email" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="البريد الإلكتروني" android:maxLines="1" android:singleLine="true" android:inputType="textEmailAddress"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:textColor="@android:color/white" android:id="@+id/password" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hint_password" android:maxLines="1" android:singleLine="true" android:inputType="textPassword" android:imeOptions="actionUnspecified" android:imeActionId="@+id/login"/>
+        </android.support.design.widget.TextInputLayout>
+        <Button android:textStyle="bold" android:textColor="@android:color/black" android:id="@+id/sign_up_button" android:background="#ffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="قم بتسجيل الحساب الجدييد" style="?android:attr/textAppearanceSmall"/>
+        <Button android:textColor="#ffff" android:id="@+id/btn_reset_password" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="نسيت كلمة المرور؟" android:textAllCaps="false"/>
+        <Button android:textSize="15dp" android:textColor="#ffff" android:id="@+id/sign_in_button" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="تسجيل الدخول" android:textAllCaps="false"/>
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/progressBar" android:visibility="gone" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginBottom="20dp"/>
+</android.support.design.widget.CoordinatorLayout>

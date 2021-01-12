@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="25sp" android:textColor="#141b36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="المدرج الدائري 1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="رياضة 2 - المجموعة 7" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="08:00 - 09:30 "/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="رياضة 2 - المجموعة 8" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="09:30 - 11:00"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="رياضة 1 - المجموعة 3" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="11:00 - 12:30"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="تقنية الورش - المجموعة 3" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="12:30 - 02:00"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="25sp" android:textColor="#141b36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="المدرج الدائري 2"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="إحصاء - المجموعة 3" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="08:00 - 09:30 "/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="إحصاء - المجموعة 4" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="09:30 - 11:00"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="رياضة 4 - المجموعة 3" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="11:00 - 12:30"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="إحصاء - المجموعة 5" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="12:30 - 02:00"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="رياضة 3 - المجموعة 5" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="02:00 - 03:30"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="25sp" android:textColor="#141b36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="مدرج النووية 107"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="إنجليزي 2 - المجموعة 9" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="09:30 - 11:00"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="إنجليزي 2 - المجموعة 10" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="11:00 - 12:30"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="إنجليزي 1 - المجموعة 2" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="12:30 - 02:00"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="إنجليزي 1 - المجموعة 3" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="02:00 - 03:30"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="25sp" android:textColor="#141b36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="مدرج النووية 108"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="ديناميكا - المجموعة 3" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="08:00 - 09:30 "/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="إستاتيكا - المجموعة 3" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="09:30 - 11:00 "/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="إستاتيكا - المجموعة 4" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="11:00 - 12:30"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="ديناميكا - المجموعة 4" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="12:30 - 02:00"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="ديناميكا - المجموعة 5" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="02:00 - 03:30"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="25sp" android:textColor="#141b36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="مدرج الكهربائية 1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#ffffff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="طبيعة 2 - المجموعة 6" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#ffffff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="08:00 - 09:30 "/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="طبيعة 2 - المجموعة 7" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="09:30 - 11:00"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="طبيعة 1 - المجموعة 3" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="11:00 - 12:30"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="اللغة العربية 2 - المجموعة 3" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="12:30 - 02:00"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="طبيعة 2 - المجموعة 8" android:layout_weight="1"/>
+                        <TextView android:textSize="15sp" android:textColor="#fff" android:gravity="right" android:background="@drawable/timeline_frames" android:padding="5dp" android:text="02:00 - 03:30"/>
+                    </TableRow>
+                    <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="25sp" android:textColor="#141b36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="مساحة فارغة"/>
+                    </LinearLayout>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

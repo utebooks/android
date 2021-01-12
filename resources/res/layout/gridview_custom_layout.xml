@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/android_gridview_custom_layout" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.andexert.library.RippleView android:id="@+id/more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" xmlns:ns1="http://schemas.android.com/apk/res-auto" ns1:rv_color="#fff" xmlns:ns2="http://schemas.android.com/apk/res-auto" ns2:rv_rippleDuration="200" rv_centered="true">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/gridview_image" android:layout_width="80dp" android:layout_height="80dp" android:src="@mipmap/ic_launcher"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#444" android:gravity="center" android:id="@+id/gridview_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Grid View Item" android:layout_below="@+id/grid_image"/>
+        </LinearLayout>
+    </com.andexert.library.RippleView>
+</LinearLayout>
